@@ -115,7 +115,9 @@ code {
       grid-template-areas:
       "nav" 
       "main";
-  background-color: lavender; 
+  background-color: lavender;
+  width: 100%;
+  height: 100%; 
     }
   
     #navbar {
@@ -123,6 +125,7 @@ code {
       margin: 0px;
       max-height: 275px;
       width: 100%;
+      z-index: 1;
       border-right: none;
       border-bottom: solid;
       border-color: #343d46;
@@ -131,9 +134,13 @@ code {
     #main-doc {
       position: relative;
       margin: 270px 0px 0px 0px;
+      width: 100%;
     }
     #navbar > header {
       text-align: center;
+    }
+    .for-smaller-screens {
+      font-size: 22px;
     }
     }
 
