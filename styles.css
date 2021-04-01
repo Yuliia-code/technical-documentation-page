@@ -141,9 +141,7 @@ code {
     
     code {
       width: fit-content;
-      margin: auto;
-      margin-top: 10px;
-      margin-bottom: 15px;
+      margin: 10px 10px 15px 20px;
     }
 
     .for-smaller-screens {
