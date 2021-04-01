@@ -140,7 +140,10 @@ code {
     }
     
     code {
-      margin: 10px 5px 15px 15px;
+      width: fit-content;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 15px;
     }
 
     .for-smaller-screens {
