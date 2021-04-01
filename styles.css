@@ -7,7 +7,6 @@
 
   body {
     font-family:sans-serif;
-    min-width: 290px;
   }
 
   .wrapper {
@@ -29,7 +28,6 @@
     position: fixed;
     height: 100%;
     width: 300px;
-    min-width: 290px;
   }
 
   #navbar > header {
@@ -120,13 +118,11 @@ code {
       ;
   background-color: lavender;  
    align-items: start;
+   width: 100%;
     }
   
     #navbar {
       position: absolute;
-      top: 0;
-      padding: 0px;
-      margin: 0px;
       margin-right: 0px;
       max-height: 275px;
       z-index: 1;
