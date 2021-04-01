@@ -113,7 +113,7 @@ code {
 
     .wrapper {
       display: grid;
-      grid-template-columns: 1fr auto;
+      grid-template-columns: 1fr;
       grid-template-areas:
       "nav" 
       "main"
