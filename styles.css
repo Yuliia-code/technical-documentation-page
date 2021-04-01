@@ -1,0 +1,144 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family:sans-serif;
+  }
+
+  .wrapper {
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "nav main";
+    background-color: lavender;
+}
+
+  #navbar {
+    grid-area: nav;
+    background-color: #d2d4dc;
+    display: grid;
+    grid-template-rows: repeat(11, auto);
+    border-right: black;
+    border-right:solid;
+    border-color: #343d46;
+    position: fixed;
+    height: 100%;
+    width: 300px;
+  }
+
+  #navbar > header {
+      padding: 15px 5px;
+      font-size: 28px;
+      text-align: center;
+  }
+
+.menu {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+  .nav-link {
+      text-decoration: none;
+      color: black;
+      border-top: 1px solid;
+      border-color: #343d46;
+      width: 100%;
+      text-align: left;
+      align-items: center;
+      padding: 15px 10px 15px 30px;
+      display: block;
+      font-size: 18px;
+  }
+
+.a {
+    list-style-type:square; 
+    padding-left: 75px;
+}
+
+  #main-doc{
+      grid-area: main;
+      background-color: #f8f8fa;
+      margin-left: 300px;
+     padding: 35px 40px;
+    
+  }
+
+header {
+    font-weight: 700;
+    font-family: serif;
+    font-size: 25px;
+    padding-bottom: 10px;   
+}
+
+.main-section {
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+p {
+  padding: 10px 0px 10px 10px;
+}
+
+section li {
+    margin: 0px 0px 0px 35px;
+}
+
+code {
+  display: block;
+    background-color: #e5e6eb;
+  padding: 15px;
+  margin: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  }
+
+  #css-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  section a:hover {
+    background-color: #c0c2ce;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+      "nav" 
+      "main"
+      ;
+  background-color: lavender;  
+   align-items: start;
+    }
+  
+    #navbar {
+      position: absolute;
+      max-height: 275px;
+      z-index: 1;
+      width: 100%;
+      border-right: none;
+      border-bottom: solid;
+      border-color: #343d46;
+    }
+  
+    #main-doc {
+      
+      margin-top: 270px;
+      position: relative;
+      margin-left: unset;
+    }
+    #navbar > header {
+      text-align: center;
+    }
+    }
+
+   
