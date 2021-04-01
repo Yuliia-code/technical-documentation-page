@@ -111,19 +111,16 @@ code {
 
     .wrapper {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 100%;
       grid-template-areas:
       "nav" 
-      "main"
-      ;
-  background-color: lavender;  
-  
-   width: 100%;
+      "main";
+  background-color: lavender; 
     }
   
     #navbar {
       position: absolute;
-      margin-right: 0px;
+      margin: 0px;
       max-height: 275px;
       width: 100%;
       border-right: none;
@@ -133,9 +130,7 @@ code {
   
     #main-doc {
       position: relative;
-      margin-top: 270px;
-      margin-left: 0px;
-      margin-right: 0px;
+      margin: 270px 0px 0px 0px;
     }
     #navbar > header {
       text-align: center;
