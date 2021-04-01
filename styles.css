@@ -131,10 +131,9 @@ code {
     }
   
     #main-doc {
-      
-      margin-top: 270px;
       position: relative;
-      margin-left: unset;
+      margin-top: 270px;
+      margin-left: 0px;
     }
     #navbar > header {
       text-align: center;
